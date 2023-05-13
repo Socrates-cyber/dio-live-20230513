@@ -10,6 +10,7 @@ public class Main {
 		
 		cc.depositar(100); 
 		cc.transferir(80, poupanca);
+		cc.pix(10, poupanca);
 		
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
